@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Smartphone, Shield, TrendingUp, Globe } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -28,13 +29,17 @@ const HeroSection = () => {
           </p>
 
           <div className="mb-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Button variant="farmer" size="lg" className="w-full sm:w-auto">
-              <Smartphone className="mr-2 h-5 w-5" />
-              Start as Farmer
+            <Button variant="farmer" size="lg" className="w-full sm:w-auto" asChild>
+              <Link to="/farmer">
+                <Smartphone className="mr-2 h-5 w-5" />
+                Start as Farmer
+              </Link>
             </Button>
-            <Button variant="consumer" size="lg" className="w-full sm:w-auto">
-              <Shield className="mr-2 h-5 w-5" />
-              Verify Products
+            <Button variant="consumer" size="lg" className="w-full sm:w-auto" asChild>
+              <Link to="/consumer">
+                <Shield className="mr-2 h-5 w-5" />
+                Verify Products
+              </Link>
             </Button>
           </div>
 
