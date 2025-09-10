@@ -19,7 +19,7 @@ const FarmerDashboard = () => {
       id: "1",
       name: "Organic Tomatoes",
       quantity: "50 kg",
-      price: "$3.50/kg",
+      price: "₹3.50/kg",
       status: "Harvested",
       location: "Farm Block A-1",
       qrGenerated: true
@@ -28,7 +28,7 @@ const FarmerDashboard = () => {
       id: "2", 
       name: "Fresh Spinach",
       quantity: "25 kg",
-      price: "$2.80/kg",
+      price: "₹2.80/kg",
       status: "Processing",
       location: "Farm Block B-2",
       qrGenerated: false
@@ -84,7 +84,7 @@ const FarmerDashboard = () => {
                   <Label htmlFor="price">Price per unit</Label>
                   <Input
                     id="price"
-                    placeholder="e.g., $3.50/kg"
+                    placeholder="e.g., ₹3.50/kg"
                     value={newProduct.price}
                     onChange={(e) => setNewProduct({...newProduct, price: e.target.value})}
                   />
@@ -169,7 +169,7 @@ const FarmerDashboard = () => {
               <div className="flex items-center">
                 <TrendingUp className="h-8 w-8 text-success" />
                 <div className="ml-4">
-                  <p className="text-2xl font-bold text-foreground">$2,847</p>
+                  <p className="text-2xl font-bold text-foreground">₹2,847</p>
                   <p className="text-sm text-muted-foreground">Total Revenue</p>
                 </div>
               </div>

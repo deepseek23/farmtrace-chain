@@ -8,9 +8,9 @@ import { Leaf, Users, TrendingUp } from "lucide-react";
 const Farmer = () => {
   // Mock farmer profile data
   const farmerProfile = {
-    name: "Maria Gonzalez",
+    name: "Tarun Munjani",
     farmName: "Sunshine Organic Farm",
-    location: "Salinas Valley, CA",
+    location: "Kaman, Vasai",
     memberSince: "2023",
     totalProducts: 24,
     revenue: 2847,
@@ -64,7 +64,7 @@ const Farmer = () => {
                 <CardContent className="p-4">
                   <div className="flex items-center justify-between">
                     <div>
-                      <p className="text-2xl font-bold text-foreground">${farmerProfile.revenue}</p>
+                      <p className="text-2xl font-bold text-foreground">₹{farmerProfile.revenue}</p>
                       <p className="text-sm text-muted-foreground">Total Revenue</p>
                     </div>
                     <TrendingUp className="h-8 w-8 text-success" />

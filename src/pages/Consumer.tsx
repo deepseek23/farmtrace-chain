@@ -10,25 +10,25 @@ const Consumer = () => {
     {
       id: "SCAN-001",
       productName: "Organic Roma Tomatoes",
-      farmer: "Maria Gonzalez",
+      farmer: "Rajesh Kumar",
       scanDate: "2024-01-10",
-      origin: "Salinas Valley, CA",
+      origin: "Nashik, Maharashtra",
       verified: true
     },
     {
       id: "SCAN-002", 
       productName: "Fresh Spinach",
-      farmer: "John Smith",
+      farmer: "Priya Sharma",
       scanDate: "2024-01-09",
-      origin: "Monterey, CA",
+      origin: "Pune, Maharashtra",
       verified: true
     },
     {
       id: "SCAN-003",
       productName: "Organic Carrots",
-      farmer: "Lisa Chen",
+      farmer: "Amit Patel",
       scanDate: "2024-01-08",
-      origin: "Watsonville, CA", 
+      origin: "Ahmedabad, Gujarat", 
       verified: true
     }
   ];

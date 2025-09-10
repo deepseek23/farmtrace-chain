@@ -18,7 +18,7 @@ const ConsumerVerification = () => {
     location: "Salinas Valley, CA",
     harvestDate: "2024-01-08",
     quality: "Grade A",
-    price: "$3.50/kg",
+    price: "₹3.50/kg",
     certifications: ["USDA Organic", "Non-GMO"],
     blockchainHash: "0x7f9c8e5a3b2d1f4e6a9c8b5e2d1a4f7e",
     supplyChain: [
